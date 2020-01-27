@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtc_cus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TC"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtogr_cus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="OGR NO"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/diakayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:textColor="#4CAF50"
+        android:textColorHighlight="#4CAF50"
+        android:textColorLink="#F44336" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+</LinearLayout>
